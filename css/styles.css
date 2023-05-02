@@ -1,0 +1,183 @@
+/* колір веблого та фільтрів (кнопок) #4D5AE5 */
+/*  другий колір лого, студіо, портфоліо, контакти, заголовки, фон футер  #2E2F42 */
+/* пошта та тел, абзаци #434455 */
+/* фільтр ховер #404BBF */
+/* загальний фон, фільтр хвер текст #FFFFFF */
+/* заливка фільтр #F4F4FD */
+/* колір обводки кнопок фільтра #E7E9FC */
+/* лого футер та абзац #F4F4FD */
+
+:root {
+    --hover-color: #404BBF;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #434455;
+    background-color: #FFFFFF;
+    }
+
+.second-section {
+     background-color: #2E2F42;
+    }
+
+.fourth-section {
+    background-color: #F4F4FD;
+    }
+
+.logo {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 18px; 
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.nav-span {
+   color: #2E2F42; 
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* навігація */
+.nav-link {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     text-decoration: none;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--hover-color);
+}
+
+.list {
+   list-style: none; 
+}
+
+.contacts {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #434455;
+}
+
+.no_italic {
+    font-style: normal;
+}
+
+/* .contact-link {
+    font-style: normal;
+    
+} */
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--hover-color);
+}
+
+/* секція кнопок */
+.main-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.btn {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    list-style: none;
+    cursor: pointer;
+    border-color: #E7E9FC;
+    border-radius: 4px;
+    }
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--hover-color);
+    color: #FFFFFF;
+}
+
+.btn-index {
+    color: #FFFFFF;
+        background-color: #4D5AE5;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        list-style: none;
+        cursor: pointer;
+        border-color: #4D5AE5;
+        border-radius: 4px;
+}
+
+.btn-index:hover,
+.btn-index:focus {
+    background-color: var(--hover-color);
+    color: #FFFFFF;
+}
+
+.title-portfolio {
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+  }
+
+ .title-text {
+    font-size: inherit;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.title-index {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.bg-color {
+background-color: #FFFFFF
+}
+
+.footer-styles {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.footer-text {
+color: #F4F4FD;
+font-size: inherit;
+line-height: 1.5;
+text-align: Left;  
+vertical-align: Top;
+}
