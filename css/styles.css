@@ -15,31 +15,23 @@ h1, h2, h3, h4, p {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-
 }
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 72px;
-}
-
-.page-nav {
-    display: flex;
-    align-items: center;
-    
-}
-
-.list-nav {
-    display: flex;
 }
 
 body {
@@ -49,16 +41,34 @@ body {
     background-color: #FFFFFF;
     }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+
+/* ================== header ====================== */
 .top-header {
     border-bottom: 1px solid #E7E9FC;
-    
-    }
+        }
 
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
+.page-nav {
+    display: flex;
+    align-items: center;
 
-.fourth-section {
-    background-color: #F4F4FD;
-    }
+}
+
+.list-nav {
+    display: flex;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif; 
@@ -69,12 +79,7 @@ body {
     color: #4D5AE5;
     text-transform: uppercase;
     margin-right: 76px;
- 
-}
-
-button {
-    cursor: pointer;
-}
+ }
 
 .nav-span {
    color: #2E2F42; 
@@ -84,7 +89,6 @@ button {
     text-decoration: none;
 }
 
-/* навігація */
 .nav-link {
      font-size: 16px;
      font-weight: 500;
@@ -92,8 +96,7 @@ button {
      text-decoration: none;
      letter-spacing: 0.02em;
      color: #2e2f42;
-    
-}
+    }
 
 .nav-item:not(:last-child){
     padding-right: 40px;
@@ -122,11 +125,6 @@ button {
     font-style: normal;
 }
 
-/* .contact-link {
-    font-style: normal;
-    
-} */
-
 .contacts:hover,
 .contacts:focus {
     color: var(--hover-color);
@@ -134,22 +132,14 @@ button {
 
 /* =================== головна секція індекс =================== */
 
-/* .main-section {
-    display: block;
-    flex-direction: column;
-    margin-left: auto;
-        margin-right: auto;
-        height: 600px;
-} */
 
-.second-section {
+.main-section {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
  }
 
 .main-title {
-   
     margin-bottom: 48px;
     width: 496px;
     margin-left: auto;
@@ -175,10 +165,8 @@ button {
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
-    /* margin-bottom: 100px; */
     margin-left: auto;
     margin-right: auto;
-    
    }
 
 .main-btn:hover,
@@ -208,10 +196,17 @@ button {
 }
 
 
+/* =============== секція 2 індекс ============= */
 
+.second-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-
-
+.title-list {
+    display: flex;
+    gap: 24px;
+}
 
 .title-portfolio {
     line-height: 1.2;
@@ -219,7 +214,7 @@ button {
     font-size: 20px;
     color: #2E2F42;
     letter-spacing: 0.02em;
-  }
+}
 
  .title-text {
     font-size: inherit;
@@ -229,7 +224,18 @@ button {
     color: #434455;
 }
 
-.title-index {
+/* =============== секція 3 індекс ================ */
+
+.third-section{
+    padding-bottom: 120px;
+}
+
+.third-list {
+    display: flex;
+    gap: 24px;
+}
+
+.other-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -237,14 +243,44 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
+
+/* ==================== секція 4 індекс ================== */
+
+.fourth-section {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   }
+
+
 .bg-color {
-background-color: #FFFFFF
+    background-color: #FFFFFF;  
+    border-radius: 4px;
 }
+
+.fourth-list {
+    display: flex;
+    gap: 24px;
+ 
+    
+}
+
+.img-title {
+    padding: 32px 16px;
+    text-align: center;
+    
+  }
+
+
+
 
 .footer-styles {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -257,4 +293,6 @@ font-size: inherit;
 line-height: 1.5;
 text-align: Left;  
 vertical-align: Top;
+width: 265px;
+margin-top: 16px;
 }
