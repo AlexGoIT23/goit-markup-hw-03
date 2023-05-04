@@ -176,6 +176,19 @@ img {
 }
 
 /* ================= кнопки портфоліо ============= */
+
+.btn-section {
+    padding-top: 96px;
+    padding-bottom: 72px;
+
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .btn {
     color: #4D5AE5;
     background-color: #F4F4FD;
@@ -187,6 +200,8 @@ img {
     list-style: none;
     border-color: #E7E9FC;
     border-radius: 4px;
+    padding: 12px 24px;
+    
     }
 
 .btn:hover,
