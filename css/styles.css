@@ -11,6 +11,36 @@
     --hover-color: #404BBF;
 }
 
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.list-nav {
+    display: flex;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,9 +49,12 @@ body {
     background-color: #FFFFFF;
     }
 
-.second-section {
-     background-color: #2E2F42;
+.top-header {
+    border-bottom: 1px solid #E7E9FC;
+    
     }
+
+
 
 .fourth-section {
     background-color: #F4F4FD;
@@ -35,6 +68,12 @@ body {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    margin-right: 76px;
+ 
+}
+
+button {
+    cursor: pointer;
 }
 
 .nav-span {
@@ -53,6 +92,11 @@ body {
      text-decoration: none;
      letter-spacing: 0.02em;
      color: #2e2f42;
+    
+}
+
+.nav-item:not(:last-child){
+    padding-right: 40px;
 }
 
 .nav-link:hover,
@@ -62,6 +106,7 @@ body {
 
 .list {
    list-style: none; 
+   padding-left: 0;
 }
 
 .contacts {
@@ -87,15 +132,62 @@ body {
     color: var(--hover-color);
 }
 
-/* секція кнопок */
+/* =================== головна секція індекс =================== */
+
+/* .main-section {
+    display: block;
+    flex-direction: column;
+    margin-left: auto;
+        margin-right: auto;
+        height: 600px;
+} */
+
+.second-section {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+ }
+
 .main-title {
+   
+    margin-bottom: 48px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+  }
+
+ .main-btn {
+    display: block;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    list-style: none;
+    border-color: #4D5AE5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    /* margin-bottom: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+
+.main-btn:hover,
+.main-btn:focus {
+    background-color: var(--hover-color);
+    color: #FFFFFF;
 }
 
+/* ================= кнопки портфоліо ============= */
 .btn {
     color: #4D5AE5;
     background-color: #F4F4FD;
@@ -105,7 +197,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     list-style: none;
-    cursor: pointer;
     border-color: #E7E9FC;
     border-radius: 4px;
     }
@@ -116,25 +207,11 @@ body {
     color: #FFFFFF;
 }
 
-.btn-index {
-    color: #FFFFFF;
-        background-color: #4D5AE5;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        list-style: none;
-        cursor: pointer;
-        border-color: #4D5AE5;
-        border-radius: 4px;
-}
 
-.btn-index:hover,
-.btn-index:focus {
-    background-color: var(--hover-color);
-    color: #FFFFFF;
-}
+
+
+
+
 
 .title-portfolio {
     line-height: 1.2;
