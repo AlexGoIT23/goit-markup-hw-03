@@ -353,11 +353,12 @@ border-bottom: 1px solid #E7E9FC;
             letter-spacing: 0.03em;
             color: #4D5AE5;
             text-transform: uppercase;
+            display: inline-block;
           
 }
 
 .footer-link {
-    display: inline-block;
+    
     margin-bottom: 16px; 
 }
 
