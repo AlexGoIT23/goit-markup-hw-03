@@ -196,7 +196,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px; 
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .btn {
@@ -208,7 +208,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     list-style: none;
-    border-color: #E7E9FC;
+    border: 1px solid #e7e9fc;
     border-radius: 4px;
     padding: 12px 24px;
     
@@ -218,6 +218,7 @@ img {
 .btn:focus {
     background-color: var(--hover-color);
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 
@@ -312,6 +313,9 @@ padding-top: 96px;
 padding-bottom: 120px;
   }
 
+  .img-portfolio {
+    width: calc((100% - 48px) / 3);
+  }
 
 .list-portfolio {
     display: flex;
@@ -323,9 +327,7 @@ padding-bottom: 120px;
 }
 
 .img-title-pf {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+padding: 32px 16px;
    border-left: 1px solid #E7E9FC;
 border-right: 1px solid #E7E9FC;
 border-bottom: 1px solid #E7E9FC;
