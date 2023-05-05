@@ -68,10 +68,10 @@ img {
     gap: 40px;
 }
 
-.nav-item {
+/* .nav-item {
     padding-top: 24px;
     padding-bottom: 24px;
-}
+} */
 
 .list-contacts {
     display: flex;
@@ -104,6 +104,8 @@ img {
      text-decoration: none;
      letter-spacing: 0.02em;
      color: #2e2f42;
+        padding-top: 24px;
+            padding-bottom: 24px;
     
     }
 
