@@ -56,8 +56,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .page-nav {
@@ -68,6 +68,12 @@ img {
 
 .list-nav {
     display: flex;
+    padding: 24px 0;
+}
+
+.list-contacts {
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
@@ -98,9 +104,9 @@ img {
      color: #2e2f42;
     }
 
-.nav-item:not(:last-child){
-    padding-right: 40px;
-}
+/* .nav-item:not(:last-child){
+    margin-right: 40px;
+} */
 
 .nav-link:hover,
 .nav-link:focus {
