@@ -238,7 +238,7 @@ img {
 }
 
 .card-second {
-flex-basis: calc ((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .title-portfolio {
@@ -338,9 +338,9 @@ border-bottom: 1px solid #E7E9FC;
     padding-bottom: 100px;
 }
 
-.footer-cont {
-    display: inline-block;
-}
+/* .footer-cont {
+   
+} */
 
 .footer-logo {
     color: #F4F4FD;
@@ -357,7 +357,8 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 .footer-link {
-   margin-bottom: 16px; 
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 
 .footer-text {
