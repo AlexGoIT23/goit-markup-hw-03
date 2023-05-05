@@ -191,16 +191,17 @@ img {
 
 /* ================= кнопки портфоліо ============= */
 
-.btn-section {
+/* .btn-section {
    
-    padding-bottom: 72px;
+   
 
-}
+} */
 
 .btn-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 24px; 
+    padding-bottom: 72px;
 }
 
 .btn {
