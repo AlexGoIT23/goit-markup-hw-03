@@ -56,19 +56,15 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
 }
 
 .page-nav {
     display: flex;
     align-items: center;
-
 }
 
 .list-nav {
     display: flex;
-    
     gap: 40px;
 }
 
@@ -308,9 +304,9 @@ width: calc((100% - 48px) / 3);
 
   /* ======================= img portfolio ======================= */
 
-  .main-pf {
-padding-top: 96px;
-padding-bottom: 120px;
+  .main-section-pf {
+    padding-top: 96px;
+    padding-bottom: 120px;
   }
 
   .img-portfolio {
