@@ -229,6 +229,7 @@ img {
     font-size: 20px;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
  .title-text {
@@ -283,12 +284,32 @@ img {
     
 }
 
-.img-title {
+.img-title-index {
     padding: 32px 16px;
     text-align: center;
     
   }
 
+  /* ======================= img portfolio ======================= */
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-basis: calc(100% - 48px / 3); */
+    row-gap: 48px;
+    column-gap: 24px;
+    margin-bottom: 120px;
+}
+
+.img-title-pf {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+   border-left: 1px solid #E7E9FC;
+border-right: 1px solid #E7E9FC;
+border-bottom: 1px solid #E7E9FC;
+    
+}
 
 
 
