@@ -69,6 +69,7 @@ img {
 .list-nav {
     display: flex;
     padding: 24px 0;
+    gap: 40px;
 }
 
 .list-contacts {
@@ -102,9 +103,10 @@ img {
      text-decoration: none;
      letter-spacing: 0.02em;
      color: #2e2f42;
+    
     }
 
-/* .nav-item:not(:last-child){
+/* .nav-link:not(:last-child){
     margin-right: 40px;
 } */
 
